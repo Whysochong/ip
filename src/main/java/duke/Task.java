@@ -76,9 +76,9 @@ public class Task {
      */
     public static void find(String str, TaskList tasks) {
         TaskList result = new TaskList();
-        for (int i = 0; i < tasks.size(); i++) {
-            if (tasks.get(i).toString().contains(str.substring(5))) {
-                result.add(tasks.get(i));
+        for (Task task : tasks) {
+            if (task.toString().contains(str.substring(5))) {
+                result.add(task);
             }
         }
         Ui.finderPrinter(result);
