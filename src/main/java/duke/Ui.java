@@ -47,4 +47,15 @@ public class Ui {
         System.out.println(input);
         System.out.printf("Now you have %d tasks in the list.\n", tasks.size());
     }
+
+    /**
+     *  Prints tasks with specified keywords
+     * @param tasks the resulting tasklist to be passed here
+     */
+    public static void finderPrinter(TaskList tasks) {
+        System.out.println("Here are the matching tasks in your list: ");
+        for (int i = 0, d = 1; i < tasks.size(); i++, d++) {
+            System.out.println(d + ". " + tasks.get(i));
+        }
+    }
 }

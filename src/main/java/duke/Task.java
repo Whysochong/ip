@@ -68,4 +68,19 @@ public class Task {
             Ui.addedTask(tasks, input);
         }
     }
+
+    /**
+     *
+     * @param str the "find book" command to be passed in
+     * @param tasks the taskList which we are searching from
+     */
+    public static void find(String str, TaskList tasks) {
+        TaskList result = new TaskList();
+        for (int i = 0; i < tasks.size(); i++) {
+            if (tasks.get(i).toString().contains(str.substring(5))) {
+                result.add(tasks.get(i));
+            }
+        }
+        Ui.finderPrinter(result);
+    }
 }

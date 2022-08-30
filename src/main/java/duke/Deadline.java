@@ -9,10 +9,10 @@ public class Deadline extends Task {
 
     /**
      *
-     * @param desc description of task
+     * @param description description of task
      */
-    public Deadline(String desc) {
-        super(desc);
+    public Deadline(String description) {
+        super(description);
     }
 
     /**

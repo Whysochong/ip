@@ -9,10 +9,10 @@ public class Event extends Task {
 
     /**
      *
-     * @param desc description of the event
+     * @param description description of the event
      */
-    public Event(String desc) {
-        super(desc);
+    public Event(String description) {
+        super(description);
     }
 
     /**

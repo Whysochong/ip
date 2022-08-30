@@ -1,2 +1,7 @@
 [E][X] project (at: Sep 9 2019)
 [T][ ] my house
+[D][ ] project work in your house (by: Feb 2 2022)
+[T][ ] my family
+[T][ ] my mother
+[E][ ] my party (at: Sep 9 2040)
+[D][ ] my homework (by: Aug 6 2017)
